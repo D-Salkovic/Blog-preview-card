@@ -49,8 +49,8 @@ In this practice challenge i learned how to position some elements, how to creat
 
 I would still like to improve on: 
 
--positioning elements
--making my code look readable and clean
+- positioning elements
+- making my code look readable and clean
 
 ## Author
 
