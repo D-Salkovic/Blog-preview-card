@@ -11,7 +11,7 @@
     --font-family: 'Figtree', sans-serif;
 
     /* Font size */
-    --font-size: 16px;
+    --font-size: 12px;
 
     /* Font weight */
     --normal: 600;
@@ -44,8 +44,8 @@ body {
     background-color: var(--white);
     border: 1px solid var(--black);
     border-radius: 5%;
-    width: 400px;
-    margin: 150px auto;
+    width: 300px;
+    margin: 100px auto;
     box-shadow: 10px 10px;
 }
 
@@ -56,23 +56,24 @@ p, img, h2 {
 .banner {
     border-radius: 5%;
     padding-top: 25px;
-    width: 350px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
 }
 
 .button {
     padding: 5px 10px;
-    margin-right: 285px;
+    margin-right: 205px;
     border-radius: 5%;
 }
 
 img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .author {
     display: flex;
+    align-items: center;
     margin: 25px 0;
 }
 
@@ -80,11 +81,39 @@ img {
     margin-left: 10px;
 }
 
-.container:hover {
+.container:hover, .container:focus {
     box-shadow: 20px 20px;
 }
 
-h2:hover {
+h2:hover, h2:hover {
     color: var(--primary);
     cursor: pointer;
+}
+
+@media (min-width: 1440px) {
+    :root {
+        --font-size: 16px
+    }
+
+    .container {
+        width: 400px;
+    }
+
+    .banner {
+        width: 350px;
+        height: 200px;
+    }
+
+    .button {
+        margin-right: 285px;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .author p {
+        margin-left: 15px;
+    }
 }
