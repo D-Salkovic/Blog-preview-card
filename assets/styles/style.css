@@ -53,9 +53,17 @@ p, img, h2 {
     margin-left: 25px;;
 }
 
+h2 {
+    color: var(--black);
+}
+
+a {
+    text-decoration: none;
+}
+
 .banner {
     border-radius: 10px;
-    padding-top: 25px;
+    margin-top: 25px;
     width: 250px;
     height: 150px;
 }
@@ -87,7 +95,6 @@ img {
 
 h2:hover, h2:focus {
     color: var(--primary);
-    cursor: pointer;
 }
 
 @media (min-width: 1440px) {
