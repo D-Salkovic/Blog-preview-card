@@ -85,7 +85,7 @@ img {
     box-shadow: 20px 20px;
 }
 
-h2:hover, h2:hover {
+h2:hover, h2:focus {
     color: var(--primary);
     cursor: pointer;
 }
