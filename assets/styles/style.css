@@ -38,6 +38,10 @@ body {
     font-family: var(--font-family);
     font-size:  var(--font-size);
     background-color: var(--primary);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -45,7 +49,6 @@ body {
     border: 1px solid var(--black);
     border-radius: 10px;
     width: 300px;
-    margin: 100px auto;
     box-shadow: 10px 10px;
 }
 
