@@ -52,12 +52,13 @@ body {
     box-shadow: 10px 10px;
 }
 
-p, img, h2 {
+p, img, h1 {
     margin-left: 25px;;
 }
 
-h2 {
+h1 {
     color: var(--black);
+    font-size: 1.1rem;
 }
 
 a {
@@ -96,7 +97,7 @@ img {
     box-shadow: 20px 20px;
 }
 
-h2:hover, h2:focus {
+h1:hover, h1:focus {
     color: var(--primary);
 }
 
